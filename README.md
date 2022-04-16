@@ -1,7 +1,14 @@
 arch-bootstrap
 ==============
 
-Bootstrap a base Arch Linux system from any GNU distro.
+Bootstrap a base Arch Linux system from Ubuntu specifically.
+
+Preconditions
+=======
+- Have tested this on 20.04 choosing a minimal installation. 
+- Install Ubuntu and keep in mind that you should have a specific partition for Arch Linux. Or else this is not going to work.
+- ```sudo apt install -y git vim openssh-server curl zstd arch-install-scripts```
+
 
 Install
 =======
